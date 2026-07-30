@@ -205,6 +205,21 @@ header{
 }
 
 .nav-links a:hover::after{
+
+   /* Active Navigation */
+
+.nav-links a.active{
+
+    color: var(--secondary);
+
+}
+
+.nav-links a.active::after{
+
+    width:100%;
+
+}
+   
    .nav-links a.active{
 
     color: var(--secondary);
